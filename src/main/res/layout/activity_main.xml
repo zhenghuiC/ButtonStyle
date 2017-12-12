@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.buttonstyle.MainActivity">
+
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_login_normal"
+        android:text="登陆页大按钮(正常状态)"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_login_press"
+        android:text="登陆页大按钮(点击状态)"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_login_disable"
+        android:text="登陆页大按钮(不可用状态)"
+        android:textColor="#B0D7D2"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#E6E6E6E6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="操作页面主按钮"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:background="@drawable/bg_operate_normal_orange"
+            android:text="提交"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/bg_operate_normal_gray"
+            android:text="取消"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#E6E6E6E6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="列表操作按钮"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@drawable/bg_list_orange"
+            android:text="按钮"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/bg_list_green"
+            android:text="按钮"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/bg_list_gray"
+            android:text="按钮"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#E6E6E6E6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="列表操作按钮"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:text="状态"
+                android:textSize="12dp"
+                android:background="@drawable/bg_status_green"
+                android:textColor="#58C37E"
+                android:layout_width="50dp"
+                android:layout_height="25dp" />
+            <TextView
+                android:text="已完成"
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:text="状态"
+                android:textSize="12dp"
+                android:background="@drawable/bg_status_orange"
+                android:textColor="#FF7200"
+                android:layout_width="50dp"
+                android:layout_height="25dp" />
+            <TextView
+                android:text="未完成,进行中"
+                android:layout_marginTop="10dp"
+                android:textSize="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
